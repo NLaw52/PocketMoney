@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BB7ED9A2BB4D73C00AC6650 /* PocketMoneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7ED992BB4D73C00AC6650 /* PocketMoneyApp.swift */; };
+		9BB7ED9C2BB4D73C00AC6650 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7ED9B2BB4D73C00AC6650 /* ContentView.swift */; };
+		9BB7ED9E2BB4D73F00AC6650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7ED9D2BB4D73F00AC6650 /* Assets.xcassets */; };
+		9BB7EDA12BB4D73F00AC6650 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB7EDA02BB4D73F00AC6650 /* Preview Assets.xcassets */; };
+		9BB7EDA82BB4D77600AC6650 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDA72BB4D77600AC6650 /* ExpenseItem.swift */; };
+		9BB7EDAA2BB4D9BC00AC6650 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDA92BB4D9BC00AC6650 /* EditView.swift */; };
+		9BB7EDAC2BB4DB7700AC6650 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDAB2BB4DB7700AC6650 /* AddView.swift */; };
+		9BB7EDB02BB53D8C00AC6650 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDAF2BB53D8C00AC6650 /* Categories.swift */; };
+		9BB7EDB22BB53E7300AC6650 /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDB12BB53E7300AC6650 /* Currencies.swift */; };
+		9BB7EDB42BB6734600AC6650 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDB32BB6734500AC6650 /* ExpensesView.swift */; };
+		9BB7EDB62BB6741900AC6650 /* ExpenseCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDB52BB6741900AC6650 /* ExpenseCollection.swift */; };
+		9BB7EDB82BB677C300AC6650 /* AddCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDB72BB677C300AC6650 /* AddCollectionView.swift */; };
+		9BB7EDBA2BB6905700AC6650 /* ExpensesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDB92BB6905600AC6650 /* ExpensesViewModel.swift */; };
+		9BB7EDC12BB7D78200AC6650 /* ExchangeRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDC02BB7D78200AC6650 /* ExchangeRates.swift */; };
+		9BB7EDC32BB7D80100AC6650 /* CurrencyConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7EDC22BB7D80100AC6650 /* CurrencyConversions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9BB7ED962BB4D73C00AC6650 /* PocketMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB7ED992BB4D73C00AC6650 /* PocketMoneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMoneyApp.swift; sourceTree = "<group>"; };
+		9BB7ED9B2BB4D73C00AC6650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BB7ED9D2BB4D73F00AC6650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BB7EDA02BB4D73F00AC6650 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BB7EDA72BB4D77600AC6650 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		9BB7EDA92BB4D9BC00AC6650 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		9BB7EDAB2BB4DB7700AC6650 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		9BB7EDAF2BB53D8C00AC6650 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		9BB7EDB12BB53E7300AC6650 /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		9BB7EDB32BB6734500AC6650 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		9BB7EDB52BB6741900AC6650 /* ExpenseCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCollection.swift; sourceTree = "<group>"; };
+		9BB7EDB72BB677C300AC6650 /* AddCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollectionView.swift; sourceTree = "<group>"; };
+		9BB7EDB92BB6905600AC6650 /* ExpensesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewModel.swift; sourceTree = "<group>"; };
+		9BB7EDC02BB7D78200AC6650 /* ExchangeRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRates.swift; sourceTree = "<group>"; };
+		9BB7EDC22BB7D80100AC6650 /* CurrencyConversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB7ED932BB4D73C00AC6650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BB7ED8D2BB4D73C00AC6650 = {
+			isa = PBXGroup;
+			children = (
+				9BB7ED982BB4D73C00AC6650 /* PocketMoney */,
+				9BB7ED972BB4D73C00AC6650 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB7ED972BB4D73C00AC6650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7ED962BB4D73C00AC6650 /* PocketMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB7ED982BB4D73C00AC6650 /* PocketMoney */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7ED992BB4D73C00AC6650 /* PocketMoneyApp.swift */,
+				9BB7EDBC2BB7D6E100AC6650 /* Models */,
+				9BB7EDBB2BB7D6BE00AC6650 /* Views */,
+				9BB7EDBD2BB7D6FD00AC6650 /* ViewModels */,
+				9BB7ED9D2BB4D73F00AC6650 /* Assets.xcassets */,
+				9BB7ED9F2BB4D73F00AC6650 /* Preview Content */,
+			);
+			path = PocketMoney;
+			sourceTree = "<group>";
+		};
+		9BB7ED9F2BB4D73F00AC6650 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7EDA02BB4D73F00AC6650 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BB7EDBB2BB7D6BE00AC6650 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7EDB72BB677C300AC6650 /* AddCollectionView.swift */,
+				9BB7EDAB2BB4DB7700AC6650 /* AddView.swift */,
+				9BB7ED9B2BB4D73C00AC6650 /* ContentView.swift */,
+				9BB7EDB32BB6734500AC6650 /* ExpensesView.swift */,
+				9BB7EDA92BB4D9BC00AC6650 /* EditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BB7EDBC2BB7D6E100AC6650 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7EDAF2BB53D8C00AC6650 /* Categories.swift */,
+				9BB7EDB12BB53E7300AC6650 /* Currencies.swift */,
+				9BB7EDC22BB7D80100AC6650 /* CurrencyConversions.swift */,
+				9BB7EDB52BB6741900AC6650 /* ExpenseCollection.swift */,
+				9BB7EDA72BB4D77600AC6650 /* ExpenseItem.swift */,
+				9BB7EDC02BB7D78200AC6650 /* ExchangeRates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BB7EDBD2BB7D6FD00AC6650 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7EDB92BB6905600AC6650 /* ExpensesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB7ED952BB4D73C00AC6650 /* PocketMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB7EDA42BB4D73F00AC6650 /* Build configuration list for PBXNativeTarget "PocketMoney" */;
+			buildPhases = (
+				9BB7ED922BB4D73C00AC6650 /* Sources */,
+				9BB7ED932BB4D73C00AC6650 /* Frameworks */,
+				9BB7ED942BB4D73C00AC6650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketMoney;
+			productName = PocketMoney;
+			productReference = 9BB7ED962BB4D73C00AC6650 /* PocketMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB7ED8E2BB4D73C00AC6650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9BB7ED952BB4D73C00AC6650 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 9BB7ED912BB4D73C00AC6650 /* Build configuration list for PBXProject "PocketMoney" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB7ED8D2BB4D73C00AC6650;
+			productRefGroup = 9BB7ED972BB4D73C00AC6650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB7ED952BB4D73C00AC6650 /* PocketMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB7ED942BB4D73C00AC6650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7EDA12BB4D73F00AC6650 /* Preview Assets.xcassets in Resources */,
+				9BB7ED9E2BB4D73F00AC6650 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB7ED922BB4D73C00AC6650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB7EDB82BB677C300AC6650 /* AddCollectionView.swift in Sources */,
+				9BB7EDBA2BB6905700AC6650 /* ExpensesViewModel.swift in Sources */,
+				9BB7ED9C2BB4D73C00AC6650 /* ContentView.swift in Sources */,
+				9BB7EDB22BB53E7300AC6650 /* Currencies.swift in Sources */,
+				9BB7EDC12BB7D78200AC6650 /* ExchangeRates.swift in Sources */,
+				9BB7EDA82BB4D77600AC6650 /* ExpenseItem.swift in Sources */,
+				9BB7EDB42BB6734600AC6650 /* ExpensesView.swift in Sources */,
+				9BB7EDAC2BB4DB7700AC6650 /* AddView.swift in Sources */,
+				9BB7EDAA2BB4D9BC00AC6650 /* EditView.swift in Sources */,
+				9BB7EDB62BB6741900AC6650 /* ExpenseCollection.swift in Sources */,
+				9BB7ED9A2BB4D73C00AC6650 /* PocketMoneyApp.swift in Sources */,
+				9BB7EDB02BB53D8C00AC6650 /* Categories.swift in Sources */,
+				9BB7EDC32BB7D80100AC6650 /* CurrencyConversions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BB7EDA22BB4D73F00AC6650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BB7EDA32BB4D73F00AC6650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BB7EDA52BB4D73F00AC6650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = Y34678TP9S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.PocketMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BB7EDA62BB4D73F00AC6650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PocketMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = Y34678TP9S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.PocketMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB7ED912BB4D73C00AC6650 /* Build configuration list for PBXProject "PocketMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB7EDA22BB4D73F00AC6650 /* Debug */,
+				9BB7EDA32BB4D73F00AC6650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB7EDA42BB4D73F00AC6650 /* Build configuration list for PBXNativeTarget "PocketMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB7EDA52BB4D73F00AC6650 /* Debug */,
+				9BB7EDA62BB4D73F00AC6650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BB7ED8E2BB4D73C00AC6650 /* Project object */;
+}
